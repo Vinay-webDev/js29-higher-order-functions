@@ -8,10 +8,14 @@ import {userData} from './userData.js';
 userData.forEach( userData => {
     console.log(userData);
 });
+console.clear();
+// let's move on to the next method or function
+// which is filter function
 
-
-
-
+const filteredUserData = userData.filter((userData) => {
+    return userData.id === 7;
+})
+console.log(filteredUserData);
 
 
 
